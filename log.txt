@@ -1,0 +1,214 @@
+2022-09-16 16:32:10,393 - INFO - __main__ - Starting bot
+2022-09-16 16:32:10,780 - INFO - aiogram.dispatcher.dispatcher - Start polling.
+2022-09-16 16:33:23,051 - ERROR - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-53' coro=<Dispatcher._process_polling_updates() done, defined at C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyError('location')>
+Traceback (most recent call last):
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\app\handlers\callbacks.py", line 60, in pin_method
+    link = res['location']
+KeyError: 'location'
+2022-09-16 16:33:31,731 - WARNING - aiogram.dispatcher.dispatcher - Polling is stopped.
+2022-09-16 16:33:31,740 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000016FF31866B0>
+2022-09-16 16:33:31,741 - ERROR - asyncio - Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x0000016FF3186C50>
+transport: <_ProactorSocketTransport fd=-1 read=<_OverlappedFuture cancelled>>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2032.0_x64__qbz5n2kfra8p0\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2032.0_x64__qbz5n2kfra8p0\lib\asyncio\proactor_events.py", line 361, in write
+    self._loop_writing(data=bytes(data))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2032.0_x64__qbz5n2kfra8p0\lib\asyncio\proactor_events.py", line 397, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+AttributeError: 'NoneType' object has no attribute 'send'
+2022-09-16 16:33:31,746 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x0000016FF31A03A0>, 2874.937)]']
+connector: <aiohttp.connector.TCPConnector object at 0x0000016FF31866E0>
+2022-09-16 16:33:31,747 - INFO - aiogram.dispatcher.dispatcher - Stop polling...
+2022-09-16 16:52:20,271 - INFO - __main__ - Starting bot
+2022-09-16 16:52:20,647 - INFO - aiogram.dispatcher.dispatcher - Start polling.
+2022-09-16 16:57:26,299 - WARNING - aiogram.dispatcher.dispatcher - Polling is stopped.
+2022-09-16 16:57:26,336 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002171F6866B0>
+2022-09-16 16:57:26,337 - INFO - aiogram.dispatcher.dispatcher - Stop polling...
+2022-09-16 16:57:28,412 - INFO - __main__ - Starting bot
+2022-09-16 16:57:28,812 - INFO - aiogram.dispatcher.dispatcher - Start polling.
+2022-09-16 17:01:08,251 - WARNING - aiogram.dispatcher.dispatcher - Polling is stopped.
+2022-09-16 17:01:08,260 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000027BA6F865F0>
+2022-09-16 17:01:08,261 - INFO - aiogram.dispatcher.dispatcher - Stop polling...
+2022-09-16 17:09:23,110 - INFO - __main__ - Starting bot
+2022-09-16 17:09:23,469 - INFO - aiogram.dispatcher.dispatcher - Start polling.
+2022-09-16 17:14:44,369 - WARNING - aiogram.dispatcher.dispatcher - Polling is stopped.
+2022-09-16 17:14:44,379 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001BFCD387F10>
+2022-09-16 17:14:44,379 - INFO - aiogram.dispatcher.dispatcher - Stop polling...
+2022-09-16 17:14:45,411 - INFO - __main__ - Starting bot
+2022-09-16 17:14:45,697 - INFO - aiogram.dispatcher.dispatcher - Start polling.
+2022-09-16 17:15:20,891 - WARNING - aiogram.dispatcher.dispatcher - Polling is stopped.
+2022-09-16 17:15:20,900 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000260FE987F10>
+2022-09-16 17:15:20,901 - ERROR - asyncio - Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x00000260FE987490>
+transport: <_ProactorSocketTransport fd=-1 read=<_OverlappedFuture cancelled>>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2032.0_x64__qbz5n2kfra8p0\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2032.0_x64__qbz5n2kfra8p0\lib\asyncio\proactor_events.py", line 361, in write
+    self._loop_writing(data=bytes(data))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2032.0_x64__qbz5n2kfra8p0\lib\asyncio\proactor_events.py", line 397, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+AttributeError: 'NoneType' object has no attribute 'send'
+2022-09-16 17:15:20,907 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x00000260FE99C5E0>, 5394.484)]']
+connector: <aiohttp.connector.TCPConnector object at 0x00000260FE987EE0>
+2022-09-16 17:15:20,907 - INFO - aiogram.dispatcher.dispatcher - Stop polling...
+2022-09-16 17:15:23,195 - INFO - __main__ - Starting bot
+2022-09-16 17:15:23,510 - INFO - aiogram.dispatcher.dispatcher - Start polling.
+2022-09-16 17:15:30,623 - ERROR - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyError('location')>
+Traceback (most recent call last):
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\app\handlers\callbacks.py", line 60, in pin_method
+    link = res['location']
+KeyError: 'location'
+2022-09-16 17:15:51,768 - ERROR - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<Dispatcher._process_polling_updates() done, defined at C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyError('location')>
+Traceback (most recent call last):
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\app\handlers\callbacks.py", line 60, in pin_method
+    link = res['location']
+KeyError: 'location'
+2022-09-16 17:16:29,967 - WARNING - aiogram.dispatcher.dispatcher - Polling is stopped.
+2022-09-16 17:16:29,993 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001EEDA586650>
+2022-09-16 17:16:29,993 - INFO - aiogram.dispatcher.dispatcher - Stop polling...
+2022-09-16 17:18:30,813 - INFO - __main__ - Starting bot
+2022-09-16 17:18:31,183 - INFO - aiogram.dispatcher.dispatcher - Start polling.
+2022-09-16 17:18:44,597 - ERROR - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<Dispatcher._process_polling_updates() done, defined at C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyError('location')>
+Traceback (most recent call last):
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\app\handlers\callbacks.py", line 63, in pin_method
+    link = res['location']
+KeyError: 'location'
+2022-09-16 17:19:12,845 - WARNING - aiogram.dispatcher.dispatcher - Polling is stopped.
+2022-09-16 17:19:12,855 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001AC77887EE0>
+2022-09-16 17:19:12,855 - INFO - aiogram.dispatcher.dispatcher - Stop polling...
+2022-09-16 17:19:15,204 - INFO - __main__ - Starting bot
+2022-09-16 17:19:15,642 - INFO - aiogram.dispatcher.dispatcher - Start polling.
+2022-09-16 17:19:23,468 - ERROR - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyError('location')>
+Traceback (most recent call last):
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\app\handlers\callbacks.py", line 63, in pin_method
+    link = res['location']
+KeyError: 'location'
+2022-09-16 17:20:11,867 - WARNING - aiogram.dispatcher.dispatcher - Polling is stopped.
+2022-09-16 17:20:11,877 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000027AC00866B0>
+2022-09-16 17:20:11,878 - INFO - aiogram.dispatcher.dispatcher - Stop polling...
+2022-09-16 17:20:25,688 - INFO - __main__ - Starting bot
+2022-09-16 17:20:25,961 - INFO - aiogram.dispatcher.dispatcher - Start polling.
+2022-09-16 17:20:35,970 - ERROR - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyError('location')>
+Traceback (most recent call last):
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\app\handlers\callbacks.py", line 63, in pin_method
+    link = res['location']
+KeyError: 'location'
+2022-09-16 17:20:40,403 - ERROR - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<Dispatcher._process_polling_updates() done, defined at C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyError('location')>
+Traceback (most recent call last):
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\MyDocuments\Proger\Python\Bots\SwiftPrBot\app\handlers\callbacks.py", line 63, in pin_method
+    link = res['location']
+KeyError: 'location'
+2022-09-16 17:21:02,350 - WARNING - aiogram.dispatcher.dispatcher - Polling is stopped.
+2022-09-16 17:21:02,360 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000225CE986650>
+2022-09-16 17:21:02,360 - INFO - aiogram.dispatcher.dispatcher - Stop polling...
+2022-09-16 17:21:03,363 - INFO - __main__ - Starting bot
+2022-09-16 17:21:03,679 - INFO - aiogram.dispatcher.dispatcher - Start polling.
+2022-09-16 17:25:39,751 - WARNING - aiogram.dispatcher.dispatcher - Polling is stopped.
+2022-09-16 17:25:39,760 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000026604B87EE0>
+2022-09-16 17:25:39,761 - INFO - aiogram.dispatcher.dispatcher - Stop polling...
+2022-09-16 17:25:55,955 - INFO - __main__ - Starting bot
+2022-09-16 17:25:56,318 - INFO - aiogram.dispatcher.dispatcher - Start polling.
+2022-09-16 17:26:52,717 - WARNING - aiogram.dispatcher.dispatcher - Polling is stopped.
+2022-09-16 17:26:52,726 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000017790F87F10>
+2022-09-16 17:26:52,727 - INFO - aiogram.dispatcher.dispatcher - Stop polling...
+2022-09-16 17:26:53,594 - INFO - __main__ - Starting bot
+2022-09-16 17:26:53,924 - INFO - aiogram.dispatcher.dispatcher - Start polling.
+2022-09-16 17:27:29,714 - WARNING - aiogram.dispatcher.dispatcher - Polling is stopped.
+2022-09-16 17:27:29,729 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001680C587F10>
+2022-09-16 17:27:29,729 - INFO - aiogram.dispatcher.dispatcher - Stop polling...
+2022-09-16 17:27:30,693 - INFO - __main__ - Starting bot
+2022-09-16 17:27:31,036 - INFO - aiogram.dispatcher.dispatcher - Start polling.
